@@ -1,0 +1,636 @@
+Development:
+  permissions: "755"
+  notes: "Root directory for all development work"
+  default_files:
+    - README.md
+  subdirs:
+    
+    # iOS Development
+    iOS:
+      permissions: "755"
+      notes: "iOS and Swift development"
+      default_files:
+        - README.md
+        - .gitignore
+      subdirs:
+        Projects:
+          permissions: "755"
+          notes: "Production iOS projects"
+          subdirs:
+            Personal:
+              permissions: "755"
+            Client:
+              permissions: "755"
+            OpenSource:
+              permissions: "755"
+        
+        Learning:
+          permissions: "755"
+          notes: "iOS tutorials and learning projects"
+          subdirs:
+            SwiftUI:
+              permissions: "755"
+              default_files:
+                - notes.md
+            UIKit:
+              permissions: "755"
+              default_files:
+                - notes.md
+            Combine:
+              permissions: "755"
+              default_files:
+                - notes.md
+            CoreData:
+              permissions: "755"
+              default_files:
+                - notes.md
+            Concurrency:
+              permissions: "755"
+              default_files:
+                - notes.md
+            Networking:
+              permissions: "755"
+              default_files:
+                - notes.md
+        
+        Tutorials:
+          permissions: "755"
+          notes: "Completed tutorial projects"
+          default_files:
+            - INDEX.md
+        
+        Playground:
+          permissions: "755"
+          notes: "Swift playgrounds and experiments"
+          default_files:
+            - experiments.md
+        
+        Templates:
+          permissions: "755"
+          notes: "Reusable code templates and boilerplates"
+          default_files:
+            - README.md
+        
+        Resources:
+          permissions: "755"
+          notes: "Documentation, assets, and references"
+          subdirs:
+            Documentation:
+              permissions: "755"
+            Assets:
+              permissions: "755"
+            References:
+              permissions: "755"
+              default_files:
+                - useful-links.md
+    
+    # Android Development
+    Android:
+      permissions: "755"
+      notes: "Android and Kotlin development"
+      default_files:
+        - README.md
+        - .gitignore
+      subdirs:
+        Projects:
+          permissions: "755"
+          subdirs:
+            Personal:
+              permissions: "755"
+            Client:
+              permissions: "755"
+            OpenSource:
+              permissions: "755"
+        
+        Learning:
+          permissions: "755"
+          subdirs:
+            Kotlin:
+              permissions: "755"
+              default_files:
+                - notes.md
+            JetpackCompose:
+              permissions: "755"
+              default_files:
+                - notes.md
+            AndroidViews:
+              permissions: "755"
+              default_files:
+                - notes.md
+            Architecture:
+              permissions: "755"
+              default_files:
+                - notes.md
+            Room:
+              permissions: "755"
+              default_files:
+                - notes.md
+            Coroutines:
+              permissions: "755"
+              default_files:
+                - notes.md
+            Networking:
+              permissions: "755"
+              default_files:
+                - notes.md
+        
+        Tutorials:
+          permissions: "755"
+          default_files:
+            - INDEX.md
+        
+        Playground:
+          permissions: "755"
+          default_files:
+            - experiments.md
+        
+        Templates:
+          permissions: "755"
+          default_files:
+            - README.md
+        
+        Resources:
+          permissions: "755"
+          subdirs:
+            Documentation:
+              permissions: "755"
+            Assets:
+              permissions: "755"
+            References:
+              permissions: "755"
+              default_files:
+                - useful-links.md
+    
+    # Web Development
+    Web:
+      permissions: "755"
+      notes: "Frontend web development"
+      default_files:
+        - README.md
+        - .gitignore
+      subdirs:
+        Projects:
+          permissions: "755"
+          subdirs:
+            Personal:
+              permissions: "755"
+            Client:
+              permissions: "755"
+            OpenSource:
+              permissions: "755"
+            Portfolio:
+              permissions: "755"
+        
+        Learning:
+          permissions: "755"
+          subdirs:
+            JavaScript:
+              permissions: "755"
+              default_files:
+                - notes.md
+            TypeScript:
+              permissions: "755"
+              default_files:
+                - notes.md
+            React:
+              permissions: "755"
+              default_files:
+                - notes.md
+            Vue:
+              permissions: "755"
+              default_files:
+                - notes.md
+            Angular:
+              permissions: "755"
+              default_files:
+                - notes.md
+            NextJS:
+              permissions: "755"
+              default_files:
+                - notes.md
+            CSS-Frameworks:
+              permissions: "755"
+              default_files:
+                - notes.md
+            WebComponents:
+              permissions: "755"
+              default_files:
+                - notes.md
+            Performance:
+              permissions: "755"
+              default_files:
+                - notes.md
+        
+        Tutorials:
+          permissions: "755"
+          default_files:
+            - INDEX.md
+        
+        Playground:
+          permissions: "755"
+          default_files:
+            - experiments.md
+        
+        Templates:
+          permissions: "755"
+          subdirs:
+            Components:
+              permissions: "755"
+            Layouts:
+              permissions: "755"
+            Boilerplates:
+              permissions: "755"
+        
+        Resources:
+          permissions: "755"
+          subdirs:
+            Documentation:
+              permissions: "755"
+            Design-Systems:
+              permissions: "755"
+            References:
+              permissions: "755"
+              default_files:
+                - useful-links.md
+    
+    # Backend Development
+    Backend:
+      permissions: "755"
+      notes: "Backend and server-side development"
+      default_files:
+        - README.md
+        - .gitignore
+      subdirs:
+        Java:
+          permissions: "755"
+          subdirs:
+            Projects:
+              permissions: "755"
+              subdirs:
+                Personal:
+                  permissions: "755"
+                Client:
+                  permissions: "755"
+                Microservices:
+                  permissions: "755"
+            
+            Learning:
+              permissions: "755"
+              subdirs:
+                CoreJava:
+                  permissions: "755"
+                  default_files:
+                    - notes.md
+                SpringBoot:
+                  permissions: "755"
+                  default_files:
+                    - notes.md
+                SpringCloud:
+                  permissions: "755"
+                  default_files:
+                    - notes.md
+                Hibernate-JPA:
+                  permissions: "755"
+                  default_files:
+                    - notes.md
+                REST-APIs:
+                  permissions: "755"
+                  default_files:
+                    - notes.md
+                GraphQL:
+                  permissions: "755"
+                  default_files:
+                    - notes.md
+                Security:
+                  permissions: "755"
+                  default_files:
+                    - notes.md
+                Testing:
+                  permissions: "755"
+                  default_files:
+                    - notes.md
+                Kafka:
+                  permissions: "755"
+                  default_files:
+                    - notes.md
+                Docker:
+                  permissions: "755"
+                  default_files:
+                    - notes.md
+            
+            Tutorials:
+              permissions: "755"
+              default_files:
+                - INDEX.md
+            
+            Templates:
+              permissions: "755"
+              default_files:
+                - README.md
+        
+        NodeJS:
+          permissions: "755"
+          subdirs:
+            Projects:
+              permissions: "755"
+            Learning:
+              permissions: "755"
+              default_files:
+                - notes.md
+            Tutorials:
+              permissions: "755"
+        
+        Python:
+          permissions: "755"
+          subdirs:
+            Projects:
+              permissions: "755"
+            Learning:
+              permissions: "755"
+              subdirs:
+                Django:
+                  permissions: "755"
+                  default_files:
+                    - notes.md
+                FastAPI:
+                  permissions: "755"
+                  default_files:
+                    - notes.md
+                Flask:
+                  permissions: "755"
+                  default_files:
+                    - notes.md
+            Tutorials:
+              permissions: "755"
+        
+        Resources:
+          permissions: "755"
+          subdirs:
+            API-Documentation:
+              permissions: "755"
+            Architecture-Patterns:
+              permissions: "755"
+            References:
+              permissions: "755"
+              default_files:
+                - useful-links.md
+    
+    # Database
+    Database:
+      permissions: "755"
+      notes: "Database design and management"
+      default_files:
+        - README.md
+      subdirs:
+        SQL:
+          permissions: "755"
+          subdirs:
+            Projects:
+              permissions: "755"
+            Learning:
+              permissions: "755"
+              subdirs:
+                PostgreSQL:
+                  permissions: "755"
+                  default_files:
+                    - notes.md
+                MySQL:
+                  permissions: "755"
+                  default_files:
+                    - notes.md
+                Optimization:
+                  permissions: "755"
+                  default_files:
+                    - notes.md
+            Scripts:
+              permissions: "755"
+              default_files:
+                - README.md
+        
+        NoSQL:
+          permissions: "755"
+          subdirs:
+            Projects:
+              permissions: "755"
+            Learning:
+              permissions: "755"
+              subdirs:
+                MongoDB:
+                  permissions: "755"
+                  default_files:
+                    - notes.md
+                Redis:
+                  permissions: "755"
+                  default_files:
+                    - notes.md
+                Cassandra:
+                  permissions: "755"
+                  default_files:
+                    - notes.md
+        
+        Resources:
+          permissions: "755"
+          default_files:
+            - schema-designs.md
+            - useful-links.md
+    
+    # DevOps
+    DevOps:
+      permissions: "755"
+      notes: "DevOps, CI/CD, and infrastructure"
+      default_files:
+        - README.md
+      subdirs:
+        Docker:
+          permissions: "755"
+          subdirs:
+            Dockerfiles:
+              permissions: "755"
+            Learning:
+              permissions: "755"
+              default_files:
+                - notes.md
+        
+        Kubernetes:
+          permissions: "755"
+          subdirs:
+            Manifests:
+              permissions: "755"
+            Learning:
+              permissions: "755"
+              default_files:
+                - notes.md
+        
+        CI-CD:
+          permissions: "755"
+          subdirs:
+            GitHub-Actions:
+              permissions: "755"
+            Jenkins:
+              permissions: "755"
+            GitLab-CI:
+              permissions: "755"
+        
+        Infrastructure:
+          permissions: "755"
+          subdirs:
+            Terraform:
+              permissions: "755"
+            AWS:
+              permissions: "755"
+              default_files:
+                - notes.md
+            Azure:
+              permissions: "755"
+              default_files:
+                - notes.md
+            GCP:
+              permissions: "755"
+              default_files:
+                - notes.md
+        
+        Scripts:
+          permissions: "755"
+          subdirs:
+            Bash:
+              permissions: "755"
+            Python:
+              permissions: "755"
+        
+        Learning:
+          permissions: "755"
+          default_files:
+            - notes.md
+    
+    # Cross-Platform
+    Cross-Platform:
+      permissions: "755"
+      notes: "Cross-platform mobile development"
+      default_files:
+        - README.md
+      subdirs:
+        Flutter:
+          permissions: "755"
+          subdirs:
+            Projects:
+              permissions: "755"
+            Learning:
+              permissions: "755"
+              default_files:
+                - notes.md
+            Tutorials:
+              permissions: "755"
+        
+        ReactNative:
+          permissions: "755"
+          subdirs:
+            Projects:
+              permissions: "755"
+            Learning:
+              permissions: "755"
+              default_files:
+                - notes.md
+            Tutorials:
+              permissions: "755"
+    
+    # Tools & Utilities
+    Tools:
+      permissions: "755"
+      notes: "Custom tools, scripts, and utilities"
+      default_files:
+        - README.md
+      subdirs:
+        Scripts:
+          permissions: "755"
+          subdirs:
+            Automation:
+              permissions: "755"
+            Utilities:
+              permissions: "755"
+            Build-Tools:
+              permissions: "755"
+        
+        CLI-Tools:
+          permissions: "755"
+        
+        Configs:
+          permissions: "755"
+          default_files:
+            - .gitconfig-template
+            - .zshrc-snippets
+            - .vimrc-snippets
+    
+    # Learning Resources
+    Learning:
+      permissions: "755"
+      notes: "Centralized learning resources and notes"
+      default_files:
+        - README.md
+        - learning-roadmap.md
+      subdirs:
+        Books:
+          permissions: "755"
+          default_files:
+            - reading-list.md
+        
+        Courses:
+          permissions: "755"
+          subdirs:
+            Completed:
+              permissions: "755"
+              default_files:
+                - INDEX.md
+            InProgress:
+              permissions: "755"
+              default_files:
+                - INDEX.md
+            Planned:
+              permissions: "755"
+              default_files:
+                - INDEX.md
+        
+        Certifications:
+          permissions: "755"
+          default_files:
+            - certification-tracker.md
+        
+        CheatSheets:
+          permissions: "755"
+          default_files:
+            - README.md
+        
+        Algorithms-DataStructures:
+          permissions: "755"
+          subdirs:
+            Problems:
+              permissions: "755"
+            Solutions:
+              permissions: "755"
+            Notes:
+              permissions: "755"
+              default_files:
+                - complexity-analysis.md
+        
+        System-Design:
+          permissions: "755"
+          subdirs:
+            Case-Studies:
+              permissions: "755"
+            Patterns:
+              permissions: "755"
+            Notes:
+              permissions: "755"
+              default_files:
+                - design-principles.md
+    
+    # Archive
+    Archive:
+      permissions: "755"
+      notes: "Archived and deprecated projects"
+      default_files:
+        - README.md
+      subdirs:
+        "2024":
+          permissions: "755"
+        "2025":
+          permissions: "755"
